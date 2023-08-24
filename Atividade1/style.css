@@ -54,7 +54,7 @@
   }
   
   .grid-template-areas-4 {
-    grid-template-columns: 50% 60% 20%;
+    grid-template-columns: 30% 60% 10%;
     grid-template-rows: 80px 150px 70px;
     grid-template-areas:
       "logo nav nav"
