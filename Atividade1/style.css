@@ -55,7 +55,7 @@
   
   .grid-template-areas-4 {
     grid-template-columns: 30% 60% 10%;
-    grid-template-rows: 80px 150px 70px;
+    grid-template-rows: 50px 150px 50px;
     grid-template-areas:
       "logo nav nav"
       "sidenav content advert"
