@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Trabalhando com  Containeres */
+
+.container {
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;   
+}
+.container2 {
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+/* Justify - Content */
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-aroud{
+    justify-content: space-around;
+}
+
+.justify-space{
+    justify-content: space-between;
+}
+
+/*.align-center{
+    align-items: center;
+}*/   
+
+/* Align Content*/
+
+.align-content-start {
+    align-content: start; 
+}
+.align-center{
+    align-items: center;
+}
+.align-content-end {
+    align-content: end; 
+}
+.align-content-stretch {
+    align-content: stretch; 
+}
+
+
+/* Propriedades dos Ítens */
+.container .item{
+    border: 1px solid blue;
+    width: 20px;
+    height: 30px;
+    padding: 5px;
+}
+
+.container2 .item2{
+    border: 1px solid rebeccapurple;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+}
+/* Order */
+.item2:nth-of-type(1){
+    order: 1;
+}
+.item2:nth-of-type(2){
+    order: 2;
+}
+.item2:nth-of-type(3){
+    order: 3;
+}
+.item2:nth-of-type(4){
+    order: 4;
+}
+.item2:nth-of-type(5){
+    order: 5;
+}
+
+/* Flex-Grow*/
+
+.grow_1{
+    flex-grow: 1;
+}
+.grow_2{
+    flex-grow: 2;
+}
+.grow_3{
+    flex-grow: 3;
+}
+.grow_4{
+    flex-grow: 4;
+}
+.grow_5{
+    flex-grow: 5;
+}
+
+.basis_auto{
+    flex-grow: 1;
+    flex-basis: auto;
+
+}

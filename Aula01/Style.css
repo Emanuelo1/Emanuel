@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    
+}
+.justify-center{
+    justify-content: center;
+}
+
+.justify-aroud{
+    justify-content: space-around;
+}
+
+.justify-space{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.container .item{
+    border: 1px solid blue;
+    width: 20px;
+    height: 30px;
+    padding: 5px;
+}
