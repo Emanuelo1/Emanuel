@@ -1,0 +1,28 @@
+{{#if auth}}
+
+{{else}}
+
+<div class="container col-4">
+<h2 class="text-primary">Faça o Login para Entrar!</h2>
+<br>
+</div>
+<form action="/user/login" method="post">
+
+{{!-- Usuario e Senha --}}
+<div class="container col-2">
+<input type="text" class="form-control" name="login" placeholder="Digite seu Login">
+<input type="text" class="form-control" name="senha" placeholder="Digte sua Senha">
+</div>
+<br>
+{{!-- Botão --}}
+<div class="container col-1">
+<input type="submit" value="Entrar" class="btn btn-primary">
+</div>
+</form>
+
+{{!-- Mensagem --}}
+<br>
+<div class="container col-3">
+<h5 class="text-danger">{{message}}</h2>
+</div>
+{{/if}}
